@@ -1,0 +1,47 @@
+:root {
+  --main-text-color: white;
+  --another-text-color: black;
+  --background-color: black;
+}
+
+body {
+    color: var(--main-text-color);
+    background-color: var(--background-color);
+}
+/* NAV */
+
+@media only screen and (min-width: 100px) {
+    /* For tablets: */
+
+    body {
+        color: var(--another-text-color);
+        background-color: lavenderblush;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        color: var(--another-text-color);
+        background-color: lightgray;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        color: var(--another-text-color);
+        background-color: lightgoldenrodyellow;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        color: var(--main-text-color);
+        background-color: var(--background-color);
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    color: var(--another-text-color);
+    background-color: lightblue;
+}
+
