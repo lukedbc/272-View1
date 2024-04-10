@@ -7,55 +7,85 @@
   --background-color: black;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: var(--main-font);
-  font-size: 100%;
+/* div { */
+/*   border-style: solid; */
+/*   border-color: red; */
+/* } */
+
+body,
+html {
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+  height: 100%;
+  margin: 0px;
+  padding: 10px;
 }
 
-body {
-    color: var(--main-text-color);
-    background-color: var(--background-color);
+.main-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.main-nav nav ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+}
+
+.main-nav nav ul a {
+  margin: 0.4em;
+  padding: 15px;
+  color: #fefdfd;
+  text-decoration: none;
+}
+
+#profile-div {
+  display: flex;
+  justify-content: center;
 }
 
 #profile-pic-id {
-    width: 300px
+  width: 300px;
 }
-/* NAV */
+
+/* /* NAV */
 
 @media only screen and (min-width: 100px) {
-    /* For tablets: */
-
-    body {
-        color: var(--another-text-color);
-        background-color: lavenderblush;
-    }
+  html,
+  body {
+    color: var(--another-text-color);
+    background-color: lavenderblush;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    body {
-        color: var(--another-text-color);
-        background-color: lightgray;
-    }
+  html,
+  body {
+    color: var(--another-text-color);
+    background-color: lightgray;
+  }
 }
 
 @media only screen and (min-width: 992px) {
-    body {
-        color: var(--another-text-color);
-        background-color: lightgoldenrodyellow;
-    }
+  html,
+  body {
+    color: var(--another-text-color);
+    background-color: lightgoldenrodyellow;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-    body {
-        color: var(--main-text-color);
-        background-color: var(--background-color);
-    }
+  html,
+  body {
+    color: var(--main-text-color);
+    background-color: var(--background-color);
+  }
 }
 
 @media only screen and (orientation: landscape) {
-    color: var(--another-text-color);
-    background-color: lightblue;
+  color: var(--another-text-color);
+  background-color: lightblue;
 }
-

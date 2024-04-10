@@ -4,38 +4,48 @@
 <head>
     <title>Dao Loc - About me</title>
     <meta charset="utf-8">
-    <meta name="description" content="This is the text that appears along with the link in web search results. LD website, DEV272">
+    <meta name="description"
+        content="This is the text that appears along with the link in web search results. LD website, DEV272">
     <meta name="keywords" content="Bellevue College, Software Development, DEV272, github">
     <meta name="author" content="L D">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-
     <div class="container">
-
-        <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12">
-            <img src="img/profile-pic.jpg" id="profile-pic-id">
-            <p>
-                Dao Loc<br />
-                loc.daobc@bellvuecollege.edu
-            </p>
+        <header class="main-nav">
+            <nav>
+                <ul>
+                    <li><a id="home-btn" href="#top">Home</a></li>
+                    <li><a id="story-btn" href="#bio">Bio</a></li>
+                    <li><a id="legacy-btn" href="#fact">About me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12" id="profile-div">
+            <div>
+                <img src="img/profile-pic.jpg" id="profile-pic-id">
+                <p style="text-align:center">
+                    Dao Loc<br />
+                    loc.daobc@bellvuecollege.edu <br />
+                    Resources
+                </p>
+                <ol>
+                    <li><a href="html/sensor_review.html">Sensor Research</a></li>
+                </ol>
+            </div>
         </div><!-- port 1-->
 
-        <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12">
+        <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12" id="bio">
             <p>
             <h3>Bio</h3><br>
-I started my web development journey with curiosity and enthusiasm, learning how to use HTML, CSS, and JavaScript. 
-I improved my skills with each project, becoming more adaptable and confident. 
-I welcomed challenges and collaboration, and enjoyed bringing web ideas to life. 
+            I started my web development journey with curiosity and enthusiasm, learning how to use HTML, CSS, and
+            JavaScript.
+            I improved my skills with each project, becoming more adaptable and confident.
+            I welcomed challenges and collaboration, and enjoyed bringing web ideas to life.
             </p>
         </div> <!-- port 2-->
 
@@ -46,17 +56,18 @@ I welcomed challenges and collaboration, and enjoyed bringing web ideas to life.
 
         <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12">
             <h3>Experience</h3><br />
-                <p>
-In school, I immersed into web development using HTML, CSS, and JavaScript, 
-showcasing my skills in a diverse portfolio accessible via the provided link. 
-I learned responsive design, interactivity, and user experience, reflecting my commitment to excellence. 
-These experiences ignited my passion for web development, equipping me with a strong foundation in frontend technologies. 
-                </p>
+            <p>
+                In school, I immersed into web development using HTML, CSS, and JavaScript,
+                showcasing my skills in a diverse portfolio accessible via the provided link.
+                I learned responsive design, interactivity, and user experience, reflecting my commitment to excellence.
+                These experiences ignited my passion for web development, equipping me with a strong foundation in
+                frontend technologies.
+            </p>
             <p><a href="https://codepen.io/lukedbc/full/BaGKOZz">Portfolio</a></p>
         </div><!-- land 3-->
 
 
-        <div class="row-fluid">
+        <div class="row-fluid" id="fact">
             <div class="col-sm-6 col-lg-6">
                 <h3>Interesting</h3>
                 <div>
@@ -69,16 +80,19 @@ These experiences ignited my passion for web development, equipping me with a st
             </div>
             <div class="col-sm-6 col-lg-6">
                 <h3>Hobbies</h3>
-                    <ul>
-                        <li>Watch movies</li>
-                        <li>Fix old computer</li>
-                        <li>Taking nature photo</li>
-                    </ul>
+                <ul>
+                    <li>Watch movies</li>
+                    <li>Fix old computer</li>
+                    <li>Taking nature photo</li>
+                </ul>
             </div>
         </div>
 
     </div>
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
 </html>
