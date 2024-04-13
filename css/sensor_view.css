@@ -1,0 +1,48 @@
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Ubuntu:wght@300&display=swap");
+
+:root {
+  --main-font: "Ubuntu", sans-serif;
+  --main-text-color: white;
+  --another-text-color: black;
+  --background-color: black;
+}
+
+/* div { */
+/*   border-style: solid; */
+/*   border-color: red; */
+/* } */
+
+body,
+html {
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+  height: 100%;
+  margin: 0px;
+  padding: 10px;
+}
+
+.card {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  margin: 2rem;
+  padding: 2rem;
+  color: #f8f8f9;
+  background: #090506;
+  background: linear-gradient(to bottom, #090506, #070709);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.9);
+  
+}
+
+.card h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+}
+.card p {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.75;
+  text-shadow: 0px 0px 1px rgba(255,255,255,0.7);
+}
