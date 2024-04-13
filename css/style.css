@@ -57,41 +57,45 @@ html {
   background-color: var(--background-color);
   color: var(--main-text-color);
 }
-/* /* /* NAV */ */
-/**/
-/* @media only screen and (min-width: 100px) { */
-/*   html, */
-/*   body { */
-/*     color: var(--another-text-color); */
-/*     background-color: lavenderblush; */
-/*   } */
-/* } */
-/**/
-/* @media only screen and (min-width: 768px) { */
-/*   html, */
-/*   body { */
-/*     color: var(--another-text-color); */
-/*     background-color: lightgray; */
-/*   } */
-/* } */
-/**/
-/* @media only screen and (min-width: 992px) { */
-/*   html, */
-/*   body { */
-/*     color: var(--another-text-color); */
-/*     background-color: lightgoldenrodyellow; */
-/*   } */
-/* } */
-/**/
-/* @media only screen and (min-width: 1200px) { */
-/*   html, */
-/*   body { */
-/*     color: var(--main-text-color); */
-/*     background-color: var(--background-color); */
-/*   } */
-/* } */
-/**/
-/* @media only screen and (orientation: landscape) { */
-/*   color: var(--another-text-color); */
-/*   background-color: lightblue; */
-/* } */
+
+
+/* /* /* NAV */ 
+/*
+@media only screen and (min-width: 100px) {
+  html,
+  body {
+    color: var(--another-text-color);
+    background-color: lavenderblush;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html,
+  body {
+    color: var(--another-text-color);
+    background-color: lightgray;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  html,
+  body {
+    color: var(--another-text-color);
+    background-color: lightgoldenrodyellow;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  html,
+  body {
+    color: var(--main-text-color);
+    background-color: var(--background-color);
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  color: var(--another-text-color);
+  background-color: lightblue;
+}
+
+*/
