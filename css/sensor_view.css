@@ -13,6 +13,11 @@
 /*   border-color: red; */
 /* } */
 
+* {
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+}
+
 body,
 html {
   background-color: var(--background-color);
